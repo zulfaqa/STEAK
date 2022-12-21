@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sign">
+  <header>
+    <h1>WELCOME TO THE BOOM STEAK</h1>
+  </header>
+  <nav>
+    <ul>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="admin login.html">Admin login</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="booking.html">Book a Table</a>
+    </ul>
+  </nav>
+  <main>
+    <h2>Sign Up</h2>
+    <p>sign up for the best deal</p>
+    <form onsubmit="return validateForm()" action="#">
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <input type="submit" value="Sign Up">
+    </form> 
+  </main>
+
+  <script>
+    function validateForm() {
+   
+      var email = document.getElementById("email").value;
+
+      if (email == "") {
+        alert("Email must be filled out");
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</body>
+</html>
