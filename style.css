@@ -14,7 +14,6 @@ body {
   .index {
     background-image: url("restaurant\ background.png");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +29,6 @@ body {
   .adminlog {
     background-image: url("restaurant\ background.png");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +41,6 @@ body {
  .men{
     background-image: url("restaurant\ background.png");
     background-color: #cccccc;
-    height: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +78,6 @@ body {
   .sign {
     background-image: url("restaurant\ background.png");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,7 +176,6 @@ body {
   .book {
     background-image: url("booking.png");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
